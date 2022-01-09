@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('continonus down') {
+        stage('continonus load') {
             steps {
                 git 'https://github.com/AneesRavidKhan/DemoATC.git'
             }
